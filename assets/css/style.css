@@ -1,0 +1,168 @@
+.pt-12pt {
+	margin-top: 120px;
+}
+
+.bg-pink {
+	background-image: linear-gradient(#ef4898, #e02d83);
+}
+
+.text-white {
+	color: white;
+}
+
+.navbar .logo {
+	color: white;
+	text-decoration: none;
+}
+.navbar .navbar-collapse .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar ul li a {
+	color: black;
+}
+
+/* hero section */
+
+#hero {
+	background-image: linear-gradient(#ef4898, #e02d83);
+	margin-top: -18px;
+	padding-bottom: 64px;
+}
+
+#hero .text-hero {
+	color: white;
+}
+
+#hero .text-box {
+	background-color: white;
+	color: #ef4898;
+	width: 50%;
+}
+#hero .text-box h5 {
+	font-weight: 700;
+}
+
+#hero .text-hero h1 {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 36 px;
+	margin-top: 17px;
+}
+
+#hero .text-hero p {
+	font-family: "Poppins";
+	margin-top: 24px;
+	font-weight: 400;
+}
+
+#hero .btn {
+	background-color: #ffa107;
+	border: none;
+	color: white;
+	font-weight: 700;
+	margin-top: 14px;
+}
+#hero .btn a {
+	text-decoration: none;
+	color: white;
+}
+
+#hero .button .btn-nobg {
+	color: white;
+	background: none;
+	border: none;
+	font-weight: 700;
+	margin-top: 14px;
+}
+
+#hero .btn:hover {
+	background-color: #facc82;
+	border: none;
+}
+
+#hero img {
+	width: 100%;
+}
+
+.denyut {
+	-webkit-animation: ;
+	animation: pound 0.9s infinite;
+	animation-duration: 8s;
+}
+@keyframes pound {
+	0% {
+		transform: scale(1.2);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.2);
+	}
+}
+
+@media (max-width: 575.98px) {
+	#hero {
+		margin-top: -72px;
+	}
+
+	#hero .text-box {
+		background-color: white;
+		color: #ef4898;
+		width: 60%;
+	}
+	#hero .text-box h5 {
+		font-size: 16px;
+		font-weight: 700;
+	}
+	#hero .text-hero h1 {
+		font-size: 32px;
+	}
+	#hero .text-hero p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	#hero .btn:hover {
+		background-color: #facc82;
+		border: none;
+	}
+}
+
+/* end hero section */
+
+/* benefits container */
+
+.benerfits .container {
+	margin-top: -12px;
+	z-index: 999;
+	position: absolute;
+	padding: 16px;
+	margin-left: 150px;
+	border-radius: 30px;
+	justify-content: space-between;
+	justify-content: center;
+	background-color: white;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+		rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.benerfits h4 {
+	color: #240029;
+	font-weight: 700;
+	font-family: "Poppins";
+}
+
+@media (max-width: 575.98px) {
+	.benerfits .container {
+		margin: 0px;
+		margin-top: -12px;
+		border-radius: 12px;
+	}
+}
+
+/* end benefits container */
+
+.shop {
+	margin-top: 200px;
+}
